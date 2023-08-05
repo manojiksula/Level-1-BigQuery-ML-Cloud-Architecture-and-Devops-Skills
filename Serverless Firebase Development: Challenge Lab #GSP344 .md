@@ -11,7 +11,7 @@ export Frontend_Staging_Service_Name=
 export Frontend_Production_Service_Name=
 ```
 
-### Press y when asked
+### Press y when asked and ignore the errors
 ```cmd
 gcloud config set run/region us-east1
 export PROJECT_ID=$(gcloud config get-value project)
